@@ -7,7 +7,7 @@
 }
 
 .bg-alt {
-  background: url("https://cdn.pixabay.com/photo/2015/12/08/00/29/northern-lights-1081752_960_720.jpg") no-repeat center center fixed;
+  background: url("../img/bg-alt.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -15,14 +15,14 @@
 }
 
 .bg-test {
-  background: url("https://cdn.pixabay.com/photo/2018/01/11/19/02/architecture-3076685_960_720.jpg") no-repeat center center fixed;
+  background: url("../img/bg-alt.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .bg-email{
-  background: url("https://cdn.pixabay.com/photo/2017/03/20/21/00/server-2160321_960_720.jpg") no-repeat center center fixed;
+  background: url("../img/bg-server.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
