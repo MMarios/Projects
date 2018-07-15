@@ -1,0 +1,98 @@
+body{
+  background: url("../img/bg.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*HEADER*/
+.navbar a{
+  color:white;
+}
+#home{
+  padding-left: 2%;
+}
+.header{
+  padding-top:0.5%;
+  padding-bottom:25%;
+  background: url("../img/Header.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.header-desc{
+  color:white;
+  padding-top:10%;
+}
+.header-desc p{
+  color:white;
+}
+.DownloadButton{
+  background-color: #fc6a42;
+  color:white;
+}
+.FeaturesButton{
+  background-color: #4466c9;
+  color:white;
+}
+/*BODY*/
+.body1{
+  padding-top:4%;
+  padding-bottom:5%;
+}
+.body1 .row{
+  padding-bottom:5%;
+}
+
+h3{
+  padding-bottom: 5%;
+}
+h2{
+  color: #648cff;
+  font-weight: bold;
+}
+p{
+  color: rgb(100, 100, 100);
+}
+.body2{
+  padding-top:1%;
+}
+.bg1{
+  background-color: #648cff;
+}
+.bg1 .col-lg-3 p{
+  color: white;
+}
+.bg1 .col-lg-3 h2{
+  color: white;
+  font-weight: bold;
+}
+.bg1 .col-sm-6 p{
+  color: white;
+}
+.bg1 .col-sm-6 h2{
+  color: white;
+  font-weight: bold;
+}
+.img-relative{
+  position: relative;
+  top: 10%;
+}
+.footer{
+  background: url("../img/bg-footer.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom:3%;
+}
+.footer .nav-item {
+  padding-top: 5%;
+  position: relative;
+  
+}
+.dev-by{
+  padding-top: 3%;
+  padding-right: 8%;
+}
