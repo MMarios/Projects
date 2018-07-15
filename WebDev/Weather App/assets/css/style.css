@@ -57,10 +57,10 @@ p{
 }
 .body2{
   padding-top:1%;
-  opacity: 0.5;
 }
 .bg1{
   background-color: #648cff;
+  opacity: 0.5;
 }
 .bg1 .col-lg-3 p{
   color: white;
