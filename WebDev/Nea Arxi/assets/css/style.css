@@ -1,0 +1,104 @@
+
+/*===============
+      HEADER
+  ===============*/
+body nav{
+  background-color: rgb(143, 240, 113);
+  opacity: 0.8;
+}
+#bg1{
+  margin: 0 auto;
+  background: url("../img/bg2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  padding-top: 12%;
+  padding-bottom: 12%;
+  
+}
+#bg1 h2{
+  color: white;
+}
+div#bg1 div div text{
+  font-size: 1em;
+}
+.bg-text{
+  background-color: rgb(34, 34, 34);
+  opacity: 0.8;
+}
+/*==================*/
+#bodytext1{
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+  margin: 0 auto;
+  padding-top: 3%;
+}
+.btn{
+  background-color: rgb(143, 240, 113);
+  border-color: rgb(143, 240, 113);
+  opacity:0.8;
+  
+}
+.btn:hover {
+  background-color: rgb(143, 240, 113);
+  border-color: rgb(143, 240, 113);
+}
+.btn:active {
+  background-color: rgb(143, 240, 113);
+  border-color: rgb(143, 240, 113);
+}
+.draseis-ul li{
+  list-style-type: circle;
+  border-left: 1px solid #999;
+  padding-top: 2%;
+  padding-left: 3%;
+}
+.text{
+  border: solid;
+  border-width: thin;
+  border-radius: 1px;
+  border-color: rgb(212, 212, 212);
+  color:rgb(54, 54, 54);
+  padding-bottom:5%;
+  height: 100%;
+  width: 100%;
+}
+h1,h2,h3,h5{
+  color:rgb(58, 58, 58);
+  font-family: 'Vollkorn', serif;
+}
+p,a{
+  color:rgb(90, 90, 90);
+  font-family: 'Open Sans', sans-serif;
+}
+a:hover{
+  color:rgb(90, 90, 90);
+}
+
+/*====================*/
+@media only screen and (max-width: 600px) {
+  .text{
+    font-family: 'Open Sans', sans-serif;
+    border: solid;
+    border-width: thin;
+    border-radius: 1px;
+    border-color: darkgray;
+    margin-top:25%;
+    padding-bottom:5%;
+    height: 100%;
+    width: 100%;
+  }
+  .bg-img{
+    width: 20rem;
+  }
+}
+/*=====================
+        FOOTER          
+  =====================*/
+  .footer{
+    background-color: rgb(202, 202, 202);
+  }
