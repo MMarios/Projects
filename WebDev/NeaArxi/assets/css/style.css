@@ -1,0 +1,116 @@
+
+/*===============
+      HEADER
+  ===============*/
+body nav{
+  background-color: rgb(71, 80, 209);
+  opacity: 1;
+  color:white;
+}
+#bg1{
+  margin: 0 auto;
+  background: url("../img/bg2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  padding-top: 12%;
+  padding-bottom: 12%;
+  
+}
+#bg1 h3{
+  color: white;
+}
+div#bg1 div div text{
+  font-size: 1em;
+}
+.bg-text{
+  background-color: rgb(34, 34, 34);
+  opacity: 0.8;
+}
+/*==================*/
+
+.btn{
+  background-color: rgb(71, 80, 209);
+  border-color: rgb(71, 80, 209);
+  opacity:1;
+  
+}
+.btn:hover {
+  background-color: rgb(71, 80, 209);
+  border-color: rgb(71, 80, 209);
+  width: 15%;
+  height: 115%;}
+.btn:active {
+  background-color: rgb(71, 80, 209);
+  border-color: rgb(71, 80, 209);
+}
+.draseis-ul li{
+  list-style-type: circle;
+  border-left: 1px solid #999;
+  padding-top: 2%;
+  padding-left: 3%;
+}
+.text{
+  border: solid;
+  border-width: thin;
+  border-radius: 1px;
+  border-color: rgb(212, 212, 212);
+  color:rgb(54, 54, 54);
+  padding-bottom:5%;
+  height: 100%;
+  width: 100%;
+}
+h1,h2,h3,h5{
+  color:rgb(58, 58, 58);
+  font-family: 'Vollkorn', serif;
+}
+p,a{
+  color:rgb(90, 90, 90);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+a:hover{
+  color:rgb(90, 90, 90);
+}
+nav a{
+  color:white;
+}
+nav a:hover{
+  color: white;
+  border-bottom: 1px solid white;
+}
+/*=====================
+        FOOTER          
+  =====================*/
+  .footer{
+    background-color:rgb(230, 230, 230);
+    color: white;
+  }
+  
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+/*==========ORAMA===========*/
+ol{
+  font-family: 'Major Mono Display', monospace;
+  font-size: 3rem;
+  color: rgb(71, 80, 209);
+}
+ol p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  color:rgb(90, 90, 90);
+}
+  
