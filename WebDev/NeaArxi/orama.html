@@ -11,24 +11,27 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Vollkorn" rel="stylesheet">
-
   <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
   <title>Νέα Αρχή</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg sticky-top" >
-    <a class="navbar-brand" href="#">Νέα Αρχή</a>
+  <nav class="navbar navbar-expand-lg navbar-dark justify-content-between">
+    <a class="navbar-brand" href="#">
+      <img src="./assets/img/logo-scaled.png" class="logo img-rensponsive float-left" alt=""></a>
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="fas fa-bars fa-1x"></span>
     </button>
-    <div class="collapse navbar-collapse pr-5" id="navbarNav">
-      <ul class="navbar-nav ml-auto pr-5 text-white">
-        <li class="nav-item">
-          <a class="nav-link" href="./index.html">Αρχική<span class="sr-only">(current)</span></a>
+    <div class="collapse navbar-collapse " id="navbarNav">
+      <ul class="navbar-nav ml-auto text-white">
+        <li class="nav-item ">
+          <a class="nav-link" href="./index.html">Αρχική</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="./tautotita.html">Tαυτότητα</a>
+            <a class="nav-link" href="./tautotita.html">Tαυτότητα</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="./orama.html">Όραμα</a>
@@ -44,12 +47,17 @@
   </nav>
   <div class="container-fluid pt-5">
       <div class="row justify-content-center">
-        <div class="col-9 text-center" >
-            <h2>Όραμα</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Integer dignissim enim odio, id maximus mauris rhoncus ut. Maecenas sagittis 
-                pellentesque laoreet. Nam suscipit varius egestas. Cras eu nisi iaculis, 
-                consectetur odio nec, porta turpis. Nulla in tempus nulla, a pellentesque massa.
+        <div class="col-9 text-left" >
+            <h2 class="text-center">Όραμα και στόχοι μας</h2>
+            <p>Η προτεραιότητα στους <u>νέους</u>. 
+                Η έμφαση στην <u>ασφάλεια</u> του πολίτη με άμεσα υλοποιήσιμο πρόγραμμα.<br>
+                Ο <u>εκσυγχρονισμός</u> του Δήμου τόσο οικονομικά όσο και διοικητικά.<br>
+                Η <u>αυτονόμηση</u> του Δήμου μας ενεργειακά αξιοποιώντας τα κονδύλια του ΕΣΠΑ.<br>
+                Η υποστήριξη της <u>τοπικής αγοράς</u> και δημιουργία νέων <u>θέσεων εργασίας</u> με τη συμβολή του Δήμου.<br>
+                Η ευρύτερη <u>αυτοδιοικητική μεταρρύθμιση</u> που ο Καλλικράτης υποσχέθηκε, αλλά δεν πραγματοποίησε.<br>
+                Η <u>ανταποδοτική ανακύκλωση</u>.<br>
+                Η στήριξη των <u>πολιτιστικών δραστηριοτήτων</u> με ταυτόχρονη ανάδειξη της παράδοσης της πόλης μας.<br>
+                Η πλήρης <u>ΔΙΑΦΑΝΕΙΑ</u>, <u>ΑΞΙΟΛΟΓΗΣΗ</u> και <u>ΑΞΙΟΚΡΑΤΙΑ</u>.<br>
             </p>
         </div>
       </div>
@@ -59,22 +67,105 @@
             </div></div>
 
             <div class="row justify-content-center">
-              <div class="col-md-10 mb-5 text-left">
-               <ol>
-                 <li><p>Lorem ipsum dolor sit amet, consectetur adiscing elit.</p></li>
-                 <li><p>Lorem ipsum dolor sit amet, consectetur adiscing elit.</p></li>
-                 <li><p>Lorem ipsum dolor sit amet, consectetur adiscing elit.</p></li>
-                 <li><p>Lorem ipsum dolor sit amet, consectetur adiscing elit.</p></li>
-                 <li><p>Lorem ipsum dolor sit amet, consectetur adiscing elit.</p></li>
-                 <li><p>Lorem ipsum dolor sit amet, consectetur adiscing elit.</p></li>
-                 <li><p>Lorem ipsum dolor sit amet, consectetur adiscing elit.</p></li>
-                 <li><p>Lorem ipsum dolor sit amet, consectetur adiscing elit.</p></li>
-                 <li><p>Lorem ipsum dolor sit amet, consectetur adiscing elit.</p></li>
-                 <li><p>Lorem ipsum dolor sit amet, consectetur adiscing elit.</p></li>
+              <div class="col-md-9 mb-5 text-left">
+               <ol class="ol-numbers">
+                 <li><p><b>ΔΡΑΣΕΙΣ ΓΙΑ ΤΗΝ ΕΛΑΦΡΥΝΣΗ ΤΩΝ ΔΗΜΟΤΩΝ</b></p><ul>
+                   <li><p>Μείωση Δημοτικών τελών -20%.</p></li>
+                   <li><p>Ελάφρυνση όλων των Δημοτών μέσω μείωσης των υψηλών αντικειμενικών αξιών.</p></li>
+                   <li><p>Παροχή Δωρεάν ενέργειας & θέρμανσης στις ευπαθείς κοινωνικές ομάδες, (άνεργοι, ΑΜΕΑ, αναξιοπαθούντες) με την ίδρυση “Ενεργειακής Κοινότητας”. Δράση που έχει ήδη ξεκινήσει.</p></li>
+                  </ul></li>
+                 <li><p><b>ΔΡΑΣΕΙΣ ΓΙΑ ΤΟ ΠΕΡΙΒΑΛΛΟΝ</b></p><ul>
+                   <li><p>Δημιουργία αστικού παρατηρητηρίου.</p></li>
+                   <li><p>Αναθεώρηση Γ.Π.Σ. Κηφισιάς.</p></li>
+                   <li><p>Οριστική Διευθέτηση ρεμάτων (Κοντοχρήστου).</p></li>
+                   <li><p>Άμεση ολοκλήρωση δικτύων ακαθάρτων – ομβρίων.</p></li>
+                   <li><p>Ενεργειακή αναβάθμιση Δημοτικών Κτιρίων - Βιοκληματικές πλατείες με πλήρη απορρόφηση προγραμμάτων ΕΣΠΑ.</p></li>
+                   <li><p>Ασφαλτόστρωση όλου του οδικού δικτύου και επισκευή πεζοδρομίων.</p></li>
+                  </ul></li>
+                 <li><p><b>ΔΡΑΣΕΙΣ ΓΙΑ ΤΗΝ ΑΛΛΥΛΕΓΓΥΗ ΚΑΙ ΚΟΙΝΩΝΙΚΗ ΠΡΟΣΤΑΣΙΑ</b></p><ul>
+                   <li><p>ΔΩΡΕΑΝ ασφάλιση για τα παιδιά από 7 έως και 18 χρονών σε όλα τα Δημοτικά, Γυμνάσια και Λύκεια Κηφισιάς, Νέας Ερυθραίας και Εκάλης, από ήδη εξασφαλισμένη χορηγία.</p></li>
+                   <li><p>Ίδρυση Ταμείου Κοινωνικής Πρόνοιας, για την ανακούφηση των πολιτών που αποδεδειγμένα μαστίζονται από την οικονομική κρίση.</p></li>
+                   <li><p>Ίδρυση ειδικού γραφείου δωρεάν νομικής υποστήριξης των Δημοτών που έχουν προβλήματα με τις τράπεζες, λόγω μη εξυπηρετούμενων δανείων.</p></li>
+                   <li><p>Αύξηση εθελοντών Ιατρών στο επιθυμητό νούμερο των 50.</p></li>
+                   <li><p>Κοινωνικό Φροντιστήριο με αξιόλογους καθηγητές (70 εθελοντές) για τη βοήθεια των παιδιών των οικογενειών που δεν μπορούν να ανταποκριθούν στα έξοδα των Φροντιστηρίων. </p></li>
+                  </ul></li>
+                 <li><p><b>ΔΡΑΣΕΙΣ ΓΙΑ ΤΗΝ ΑΝΑΠΤΥΞΗ</b></p><ul>
+                   <li><p>Επέκταση του Μετρό στην Δημοτική Ενότητα της Ν. Ερυθραίας. </p></li>
+                   <li><p>Δημιουργία Κοινωνικών Συνεταιριστικών Επιχειρήσεων για νέους και καινοτόμους επιχειρηματίες με έδρα το Δήμο μας & σύσταση φορέα μικρο-πιστώσεων για το αρχικό ξεκίνημα.</p></li>
+                   <li><p>Τουριστική προβολή σε συνεργασία με τον ΕΟΤ & τα Social Media, για την ανάδειξη όλων των ιστορικών μνημείων του Δήμου, καθώς και των Πύργων & οικιών Ιστορικών προσώπων σε ιδιαίτερα δείγματα αρχιτεκτονικής κληρονομιάς.</p></li>
+                  </ul></li>
+                 <li><p><b>ΔΡΑΣΕΙΣ ΓΙΑ ΤΗΝ ΠΛΗΡΟΦΟΡΙΚΗ</b></p><ul>
+                   <li><p>Δημιουργία υποδομών τηλεματικής, για το ολοκληρωμένο δίκτυο ΤΗΛΕ-ΠΡΟΛΗΨΗΣ που παρέχει υπηρεσίες υποστήριξης στις ευπαθείς κοινωνικές ομάδες (ηλικιωμένους, ΑΜΕΑ) μέσω αποστολής δεδομένων στο 24ωρο κέντρο ΤΗΛΕ-ΠΡΟΛΗΨΗΣ του Δήμου.</p></li>
+                   <li><p>Εγκατάσταση 7000 επαφών σε στάσεις, πινακίδες, φανάρια και σε άλλα μέρη του Δήμου για τη Δημιουργία Έξυπνης πόλης, με εφαρμογές σε Smart Phones.</p></li>
+                   <li><p>Δράση εφαρμογής ολοκληρωμένου συστήματος Διαχείρισης Δεδομένων αστικών περιοχών Web GIS.</p></li>
+                  </ul></li>
+                 <li><p><b>ΔΡΑΣΕΙΣ ΓΙΑ ΤΗΝ ΕΝΕΡΓΕΙΑ </b></p><ul>
+                   <li><p>Ίδρυση Ένωσης Ενεργειακών Κοινοτήτων (5 τον αριθμό) για δωρεάν ρεύμα σε όσο το δυνατότερο περισσότερα νοικοκυριά.</p></li>
+                   <li><p>Αξιοποίηση των υπολειμμάτων από κλαδέματα-αποψίλωση, που στο Δήμο μας είναι πολλά, για παραγωγή ενέργειας. </p></li>
+                   <li><p>Δημιουργία 300 μόνιμων θέσεων εργασίας στην Κοινωνική Συνεταιριστική Επιχείρηση. </p></li>
+                   <li><p>Εξασφάλιση μεγάλου μέρους εσόδων για τον Δήμο, που μπορούν να επιστραφούν στους Δημότες (μείωση τελών - ειδικά επιδόματα ανεργίας από τον Δήμο) και ΤΑΥΤΟΧΡΟΝΑ ΕΝΕΡΓΕΙΑΚΗ ΑΥΤΟΤΕΛΕΙΑ του Δήμου μας. </p></li>
+                   <li><p>Ενεργειακή αυτονόμηση των Δημοτικών Κτιρίων - Σχολείων με συστήματα ΑΠΕ - Πράσινα Δώματα.</p></li>
+                  </ul></li>
+                 <li><p><b>ΔΡΑΣΕΙΣ ΓΙΑ ΤΗΝ ΑΝΕΡΓΙΑ</b></p><ul>
+                   <li><p>Δημιουργία 300 μόνιμων θέσεων εργασίας στην Κοινωνική Συνεταιριστική Επιχείρηση.</p></li>
+                   <li><p>Δημιουργία ειδικού “Γραφείου Ανέργων” (ξεχωριστό από το γραφείο διαμεσολάβησης), με στόχο την ακριβή καταγραφή του αριθμού των ανέργων στον Δήμο μας, ανά ειδικότητα, και την εύρεση ειδικών κονδυλίων, για καταβολή επιδόματος ανέργου (άνω των 200€ μηνιαίως) από τον Δήμο, με ρήτρα ανταποδοτικότητας, την ενσωμάτωση τους στα σώματα Εθελοντών του Δήμου μας.</p></li>
+                   <li><p>Παροχή κινήτρων στις τοπικές επιχειρήσεις, στα όρια του Δήμου μας, για προσλήψεις ανέργων της πόλης μας. Στόχος μας η συρρίκνωση του ποσοστού ανεργίας σε επίπεδα Β. Ευρώπης.</p></li>
+                  </ul></li>
+                 <li><p><b>ΔΡΑΣΕΙΣ ΓΙΑ ΤΑ ΑΜΕΑ</b></p><ul>
+                   <li><p>Ακριβής καταμέτρηση ανά μορφή αναπηρίας Δράση για πρόσβαση τους με ολοκληρωμένο σχέδιο (ειδικό αυτοκίνητο του Δήμου για την μεταφορά τους).</p></li>
+                   <li><p>Δημιουργία κεκλιμένων ραμπών (όπου δεν υπάρχουν).</p></li>
+                   <li><p>Εγκατάσταση σε όλα τα Δημοτικά Κτίρια αναβατορίου κλίμακας.</p></li>
+                   <li><p>Δημιουργία γκισέ υποδοχής και συναλλαγών ΑΜΕΑ σε όλα τα Δημοτικά Κτίρια. </p></li>
+                   <li><p>Αντιπροσώπευση στα Δημοτικά και Κοινοτικά συμβούλια, γιατί πιστεύουμε ότι δεν πρέπει να είναι αποκλεισμένοι από τα Κέντρα Αποφάσεων.</p></li>
+                  </ul></li>
+                 <li><p><b>ΔΡΑΣΕΙΣ ΓΙΑ ΤΗΝ ΚΥΚΛΟΦΟΡΙΑ </b></p><ul>
+                   <li><p>Βελτίωση πύκνωσης των δρομολογίων της Δημοτικής Συγκοινωνίας και ειδικά τις βραδινές ώρες.</p></li>
+                   <li><p>Αύξηση των θέσεων στάθμευσης.</p></li>
+                   <li><p>Δημιουργία νέων θέσεων σταύθμευσης.</p></li>
+                   <li><p>Αγορά Πράσινων λεωφορείων που κινούνται με Βιοκαύσιμο - Υδρογόνο.</p></li>
+                  </ul></li>
+                 <li><p><b>ΔΡΑΣΕΙΣ ΕΠΙΚΟΙΝΩΝΙΑΣ </b></p><ul>
+                   <li><p>Ίδρυση “Γραφείου Εξυπηρέτησης του Πολίτη” που κάθε τηλέφωνο εντοπισμού προβλήματος, προωθείται ηλεκτρονικά στην αντίστοιχη υπηρεσία, προς λύση του εντός 48 ωρών χωρίς τη μεσολάβηση αιρετού προσώπου (Αντιδημάρχου-Δημοτικού Συμβούλου).</p></li>
+                   <li><p>Ανάπτυξη της ευρυζωνικότητας (ΔΩΡΕΑΝ wi-fi) σε όλη την πόλη.</p></li>
+                   <li><p>Δημιουργία γραφείου Διεθνών σχέσεων Δήμου, για συνεργασίες με άλλους Δήμους στα πλαίσια αδελφοποίησης - ανταλλαγής ιδεών - γνώσεων - καινοτομίας. </p></li>
+                   <li><p>Μέσω της υπηρεσίας Έξυπνη Πόλης, συνεχή επαφή για όλα τα προβλήματα των Δημοτών. </p></li>
+                   <li><p>Ενημέρωση των Δημοτών Διαδικτυακά, για προγράμματα Διατροφής των παιδιών - Επαγγελματικού Προσανατολισμού, στις μικρές ηλικίες.</p></li>
+                  </ul></li>
                </ol>
               </div>
             </div>
           </div>
+          <div class="container-fluid footer pt-5">
+              <div class="row justify-content-center text-left pb-5">
+                  <div class="col-lg-4 col-sm-12">
+                    <h5>Νέα Αρχή</h5><br>
+                    <p class="text-left">
+                      Μια κίνηση πολιτών με καμία υποχρέωση από προηγούμενες εκλογικές αναμετρήσεις, με αποστροφή στον ρατσισμό και στην βία, 
+                      με πολιτική ταυτότητα χωρίς κομματική ταυτότητα, με ευαισθησία για το περιβάλλον και με συγκεκριμένο οικονομικό πρόγραμμα για την 
+                      προστασία του. Με συγκεκριμένο πρόγραμμα διαχείρισης των πόρων του Δήμου και με στόχο μας την ανάδειξη του δημότη, μέσω των νέων προτάσεων μας, σε ρυθμιστή. 
+                    
+                    </p>
+                  </div>
+                  <div class="col-lg-4 col-sm-12"><a href="./epikoinonia.html">
+                    <a href="./epikoinonia.html"><p>Νεα Αρχή - Δημοτική κίνηση πολιτών Κηφισιάς - Νέας Ερυθραίας - Εκάλης</p></a>
+                    <a href="./epikoinonia.html"><p>Κασσαβέτη 11, Κηφισιά</p></a>
+                    <a href="./epikoinonia.html"><p>Τηλέφωνα επικοινωνίας: 2130451371 , 6944313954</p></a>
+                    <a href="./epikoinonia.html"><p>Email: alexios.makris.neaarxi@gmail.com</p></a>
+                      <a href=""><i class="fab fa-2x fa-facebook"></i></a>
+                      <a href=""><i class="fab fa-2x fa-instagram"></i></a>
+                      <a href=""><i class="fab fa-2x fa-youtube"></i></a>
+                      <p>Πως θα μας βρείτε:</p>
+                      <div class="map-responsive">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3140.9199007782204!2d23.811007915326222!3d38.072246479706344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a19edf1abfdbaf%3A0x8e4e43d6bdbe6281!2zzprOsc-Dz4POsc6yzq3PhM63IDExLCDOms63z4bOuc-DzrnOrCAxNDUgNjI!5e0!3m2!1sel!2sgr!4v1545486412688" width="5%" height="5%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p>Developed & Designed By <b>Marios Mitoudis</b>.</p>
+                  </div>
+                </div>
+              </div>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
