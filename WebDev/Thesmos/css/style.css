@@ -1,0 +1,121 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Roboto', sans-serif;
+}
+
+a,p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20 rem;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 12;
+  top: 30%;
+  left: 15%;
+  width: 100%;
+  color: white;
+  
+}
+
+#carousel {
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-caption {
+  top:35%;
+  text-align: left;
+}
+
+.btn {
+  color: #0c5a9e;
+  border-color: #0c5a9e;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #0c5a9e;
+  border-color: white;
+}
+
+.btn-lg {
+  color: white;
+  border-color: white;
+}
+.btn-lg:hover{
+  border-color: #0c5a9e;
+}
+
+.equal {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
+.icon-background-s {
+  color: white;
+}
+
+
+.icon-background-p {
+  color: #0c5a9e;
+}
+
+.fas {
+  color: #d9edff;
+}
+
+#students .card {
+  background-color: #0c5a9e;
+  color: white;
+}
+
+#students .fas {
+  color: #0c5a9e;
+}
+
+#parents {
+  background-color: #0c5a9e;
+  color: white;
+}
+
+#parents .card {
+  color: black;
+}
+
+#parents .fas {
+  color: white;
+}
+
+#contact .fas {
+  color: #0c5a9e;
+}
+
+#footer {
+  background-color: #202020;
+  color: white;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  padding-bottom: 5%;
+  border-bottom: 1px #2c2c2c solid;
+}
+
+footer ul li a {
+  color: white;
+
+}
+
+footer ul li a:hover {
+  color: white;
+  text-decoration: none;
+}
